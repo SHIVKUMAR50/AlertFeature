@@ -1,0 +1,78 @@
+# Ignore Visual Studio files
+.vs/
+*.vscode/
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore NuGet packages
+*.nuget.props
+*.nuget.targets
+packages/
+
+# Ignore build output
+bin/
+obj/
+
+# Ignore .NET Core build artifacts
+*.rdb
+*.dll
+*.pdb
+*.log
+*.zip
+*.exe
+*.nupkg
+*.snk
+*.cache
+*.bak
+*.vspscc
+*.vssscc
+*.PSess
+*.pidb
+*.svclog
+
+# Ignore Visual Studio generated files
+*.csproj.user
+*.dotSettings
+
+# Ignore Resharper files
+_ReSharper*/
+*.resharper
+
+# Ignore build results and publish output
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Aa][Rr][Mm]64[/]*
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Ignore node modules (if using npm)
+node_modules/
+
+# Ignore bower components (if using Bower)
+bower_components/
+
+# Ignore Visual Studio Code specific files
+.vscode/
+*.code-workspace
+
+# Ignore ReSharper specific files
+*.resharper
+*.resharper.user
+
+# Ignore Rider specific files
+.idea/
+
+# Ignore Mac specific files
+.DS_Store
+
+# Ignore build tools and scripts
+tools/
+scripts/

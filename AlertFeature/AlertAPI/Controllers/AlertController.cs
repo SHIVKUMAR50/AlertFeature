@@ -11,7 +11,7 @@ namespace AlertAPI.Controllers
     [Route("api/[controller]")]
     [ApiController]
     //[Authorize(Roles ="Admin")] //This filter is based on JWT  token claim
-    [RoleAuthorize("Administrator")]
+    //[RoleAuthorize("Administrator")]
     public class AlertController(IAlertService alertService) : ControllerBase
     {
         [HttpGet("/alerts")]
